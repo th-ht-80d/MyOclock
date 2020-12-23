@@ -41,9 +41,8 @@ class ViewController: UIViewController {
         //１秒毎に進む
         Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(ViewController.timerUpdate), userInfo: nil, repeats: true)
         
-    
            
-        //日付設定
+        //日付設定1
         dateFormatter.dateFormat = DateFormatter.dateFormat(fromTemplate: "yMMMd(EEE)", options: 0,locale: Locale(identifier: "ja_JP"))
         
         let date = dateFormatter.string(from: dt)
