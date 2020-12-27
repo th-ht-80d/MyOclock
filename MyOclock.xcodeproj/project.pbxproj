@@ -60,7 +60,7 @@
 		344876522594D8A000D295AD /* OclockWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OclockWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		344876542594D8A000D295AD /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		344876562594D8A000D295AD /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		344876592594D8A000D295AD /* OclockWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OclockWidget.swift; sourceTree = "<group>"; };
+		344876592594D8A000D295AD /* OclockWidget.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = OclockWidget.swift; sourceTree = "<group>"; tabWidth = 4; };
 		3448765B2594D8A000D295AD /* OclockWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = OclockWidget.intentdefinition; sourceTree = "<group>"; };
 		3448765C2594D8A200D295AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3448765E2594D8A200D295AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -538,7 +538,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.03;
+				CURRENT_PROJECT_VERSION = 1.04;
 				DEVELOPMENT_ASSET_PATHS = MyOclock/thama.mobileprovision;
 				DEVELOPMENT_TEAM = D93ZL5U376;
 				INFOPLIST_FILE = MyOclock/Info.plist;
@@ -546,7 +546,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "-1331104th.tama.ac.jp.MyOclock";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -560,7 +560,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.03;
+				CURRENT_PROJECT_VERSION = 1.04;
 				DEVELOPMENT_ASSET_PATHS = MyOclock/thama.mobileprovision;
 				DEVELOPMENT_TEAM = D93ZL5U376;
 				INFOPLIST_FILE = MyOclock/Info.plist;
@@ -568,7 +568,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "-1331104th.tama.ac.jp.MyOclock";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

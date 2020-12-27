@@ -13,6 +13,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    
 //時間
     @IBOutlet weak var NowTime: UILabel!
     
@@ -112,6 +114,8 @@ class ViewController: UIViewController {
         NowTime.text =  Date2
         
     }
+    
+    
     
     
     
