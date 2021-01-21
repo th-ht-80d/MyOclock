@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34051AEB25B9B8F900469B37 /* MyOclockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34051AEA25B9B8F900469B37 /* MyOclockUITests.swift */; };
+		34051AFC25B9B90900469B37 /* MyOclockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34051AFB25B9B90900469B37 /* MyOclockTests.swift */; };
 		344876552594D8A000D295AD /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 344876542594D8A000D295AD /* WidgetKit.framework */; };
 		344876572594D8A000D295AD /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 344876562594D8A000D295AD /* SwiftUI.framework */; };
 		3448765A2594D8A000D295AD /* OclockWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344876592594D8A000D295AD /* OclockWidget.swift */; };
@@ -15,15 +17,6 @@
 		344876602594D8A200D295AD /* OclockWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 3448765B2594D8A000D295AD /* OclockWidget.intentdefinition */; };
 		3448766B2595FD0100D295AD /* OclockWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 344876522594D8A000D295AD /* OclockWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3458E5A625261AC500E37400 /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3458E5A525261AC500E37400 /* StopWatch.swift */; };
-		34CB6A2D25485FB200852C8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CB6A2125485FB200852C8A /* ViewController.swift */; };
-		34CB6A2E25485FB200852C8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34CB6A2225485FB200852C8A /* Assets.xcassets */; };
-		34CB6A2F25485FB200852C8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34CB6A2325485FB200852C8A /* LaunchScreen.storyboard */; };
-		34CB6A3025485FB200852C8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34CB6A2525485FB200852C8A /* Main.storyboard */; };
-		34CB6A3125485FB200852C8A /* thama.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 34CB6A2725485FB200852C8A /* thama.mobileprovision */; };
-		34CB6A3225485FB200852C8A /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CB6A2825485FB200852C8A /* StopWatch.swift */; };
-		34CB6A3325485FB200852C8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CB6A2925485FB200852C8A /* AppDelegate.swift */; };
-		34CB6A3425485FB200852C8A /* Takahiro_Hama.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 34CB6A2A25485FB200852C8A /* Takahiro_Hama.mobileprovision */; };
-		34CB6A3625485FB200852C8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CB6A2C25485FB200852C8A /* SceneDelegate.swift */; };
 		34ECC517252001EA003908DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ECC516252001EA003908DF /* AppDelegate.swift */; };
 		34ECC519252001EA003908DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ECC518252001EA003908DF /* SceneDelegate.swift */; };
 		34ECC51B252001EA003908DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34ECC51A252001EA003908DF /* ViewController.swift */; };
@@ -33,6 +26,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		34051AED25B9B8F900469B37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34ECC50B252001EA003908DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34ECC512252001EA003908DF;
+			remoteInfo = MyOclock;
+		};
+		34051AFE25B9B90900469B37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34ECC50B252001EA003908DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34ECC512252001EA003908DF;
+			remoteInfo = MyOclock;
+		};
 		344876612594D8A200D295AD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 34ECC50B252001EA003908DF /* Project object */;
@@ -57,6 +64,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		34051AE825B9B8F900469B37 /* MyOclockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyOclockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34051AEA25B9B8F900469B37 /* MyOclockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOclockUITests.swift; sourceTree = "<group>"; };
+		34051AEC25B9B8F900469B37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34051AF925B9B90900469B37 /* MyOclockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyOclockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34051AFB25B9B90900469B37 /* MyOclockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOclockTests.swift; sourceTree = "<group>"; };
+		34051AFD25B9B90900469B37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		344876522594D8A000D295AD /* OclockWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OclockWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		344876542594D8A000D295AD /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		344876562594D8A000D295AD /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -65,17 +78,6 @@
 		3448765C2594D8A200D295AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3448765E2594D8A200D295AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3458E5A525261AC500E37400 /* StopWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
-		34CB6A1D25485FB200852C8A /* MyOclock.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MyOclock.xcodeproj; sourceTree = "<group>"; };
-		34CB6A2125485FB200852C8A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		34CB6A2225485FB200852C8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		34CB6A2425485FB200852C8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		34CB6A2625485FB200852C8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		34CB6A2725485FB200852C8A /* thama.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = thama.mobileprovision; sourceTree = "<group>"; };
-		34CB6A2825485FB200852C8A /* StopWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
-		34CB6A2925485FB200852C8A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		34CB6A2A25485FB200852C8A /* Takahiro_Hama.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = Takahiro_Hama.mobileprovision; sourceTree = "<group>"; };
-		34CB6A2B25485FB200852C8A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34CB6A2C25485FB200852C8A /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		34ECC513252001EA003908DF /* MyOclock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyOclock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34ECC516252001EA003908DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34ECC518252001EA003908DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		34051AE525B9B8F900469B37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34051AF625B9B90900469B37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3448764F2594D8A000D295AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -106,6 +122,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34051AE925B9B8F900469B37 /* MyOclockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34051AEA25B9B8F900469B37 /* MyOclockUITests.swift */,
+				34051AEC25B9B8F900469B37 /* Info.plist */,
+			);
+			path = MyOclockUITests;
+			sourceTree = "<group>";
+		};
+		34051AFA25B9B90900469B37 /* MyOclockTests */ = {
+			isa = PBXGroup;
+			children = (
+				34051AFB25B9B90900469B37 /* MyOclockTests.swift */,
+				34051AFD25B9B90900469B37 /* Info.plist */,
+			);
+			path = MyOclockTests;
+			sourceTree = "<group>";
+		};
 		344876532594D8A000D295AD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,43 +160,13 @@
 			path = OclockWidget;
 			sourceTree = "<group>";
 		};
-		34CB6A1C25485FB200852C8A /* MyOclock */ = {
-			isa = PBXGroup;
-			children = (
-				34CB6A1D25485FB200852C8A /* MyOclock.xcodeproj */,
-				34CB6A2025485FB200852C8A /* MyOclock */,
-			);
-			name = MyOclock;
-			sourceTree = "<group>";
-		};
-		34CB6A1E25485FB200852C8A /* Products */ = {
-			isa = PBXGroup;
-			name = Products;
-			sourceTree = "<group>";
-		};
-		34CB6A2025485FB200852C8A /* MyOclock */ = {
-			isa = PBXGroup;
-			children = (
-				34CB6A2125485FB200852C8A /* ViewController.swift */,
-				34CB6A2225485FB200852C8A /* Assets.xcassets */,
-				34CB6A2325485FB200852C8A /* LaunchScreen.storyboard */,
-				34CB6A2525485FB200852C8A /* Main.storyboard */,
-				34CB6A2725485FB200852C8A /* thama.mobileprovision */,
-				34CB6A2825485FB200852C8A /* StopWatch.swift */,
-				34CB6A2925485FB200852C8A /* AppDelegate.swift */,
-				34CB6A2A25485FB200852C8A /* Takahiro_Hama.mobileprovision */,
-				34CB6A2B25485FB200852C8A /* Info.plist */,
-				34CB6A2C25485FB200852C8A /* SceneDelegate.swift */,
-			);
-			path = MyOclock;
-			sourceTree = "<group>";
-		};
 		34ECC50A252001EA003908DF = {
 			isa = PBXGroup;
 			children = (
 				34ECC515252001EA003908DF /* MyOclock */,
-				34CB6A1C25485FB200852C8A /* MyOclock */,
 				344876582594D8A000D295AD /* OclockWidget */,
+				34051AE925B9B8F900469B37 /* MyOclockUITests */,
+				34051AFA25B9B90900469B37 /* MyOclockTests */,
 				344876532594D8A000D295AD /* Frameworks */,
 				34ECC514252001EA003908DF /* Products */,
 			);
@@ -173,6 +177,8 @@
 			children = (
 				34ECC513252001EA003908DF /* MyOclock.app */,
 				344876522594D8A000D295AD /* OclockWidgetExtension.appex */,
+				34051AE825B9B8F900469B37 /* MyOclockUITests.xctest */,
+				34051AF925B9B90900469B37 /* MyOclockTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,6 +201,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		34051AE725B9B8F900469B37 /* MyOclockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34051AEF25B9B8F900469B37 /* Build configuration list for PBXNativeTarget "MyOclockUITests" */;
+			buildPhases = (
+				34051AE425B9B8F900469B37 /* Sources */,
+				34051AE525B9B8F900469B37 /* Frameworks */,
+				34051AE625B9B8F900469B37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34051AEE25B9B8F900469B37 /* PBXTargetDependency */,
+			);
+			name = MyOclockUITests;
+			productName = MyOclockUITests;
+			productReference = 34051AE825B9B8F900469B37 /* MyOclockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		34051AF825B9B90900469B37 /* MyOclockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34051B0025B9B90900469B37 /* Build configuration list for PBXNativeTarget "MyOclockTests" */;
+			buildPhases = (
+				34051AF525B9B90900469B37 /* Sources */,
+				34051AF625B9B90900469B37 /* Frameworks */,
+				34051AF725B9B90900469B37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34051AFF25B9B90900469B37 /* PBXTargetDependency */,
+			);
+			name = MyOclockTests;
+			productName = MyOclockTests;
+			productReference = 34051AF925B9B90900469B37 /* MyOclockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		344876512594D8A000D295AD /* OclockWidgetExtension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 344876672594D8A200D295AD /* Build configuration list for PBXNativeTarget "OclockWidgetExtension" */;
@@ -237,10 +279,18 @@
 		34ECC50B252001EA003908DF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1220;
+				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = thama;
 				TargetAttributes = {
+					34051AE725B9B8F900469B37 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 34ECC512252001EA003908DF;
+					};
+					34051AF825B9B90900469B37 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 34ECC512252001EA003908DF;
+					};
 					344876512594D8A000D295AD = {
 						CreatedOnToolsVersion = 12.2;
 					};
@@ -260,21 +310,31 @@
 			mainGroup = 34ECC50A252001EA003908DF;
 			productRefGroup = 34ECC514252001EA003908DF /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 34CB6A1E25485FB200852C8A /* Products */;
-					ProjectRef = 34CB6A1D25485FB200852C8A /* MyOclock.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				34ECC512252001EA003908DF /* MyOclock */,
 				344876512594D8A000D295AD /* OclockWidgetExtension */,
+				34051AE725B9B8F900469B37 /* MyOclockUITests */,
+				34051AF825B9B90900469B37 /* MyOclockTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		34051AE625B9B8F900469B37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34051AF725B9B90900469B37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		344876502594D8A000D295AD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -287,20 +347,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34CB6A3025485FB200852C8A /* Main.storyboard in Resources */,
 				34ECC523252001EC003908DF /* LaunchScreen.storyboard in Resources */,
 				34ECC520252001EC003908DF /* Assets.xcassets in Resources */,
 				34ECC51E252001EA003908DF /* Main.storyboard in Resources */,
-				34CB6A2F25485FB200852C8A /* LaunchScreen.storyboard in Resources */,
-				34CB6A3425485FB200852C8A /* Takahiro_Hama.mobileprovision in Resources */,
-				34CB6A2E25485FB200852C8A /* Assets.xcassets in Resources */,
-				34CB6A3125485FB200852C8A /* thama.mobileprovision in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		34051AE425B9B8F900469B37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34051AEB25B9B8F900469B37 /* MyOclockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34051AF525B9B90900469B37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34051AFC25B9B90900469B37 /* MyOclockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3448764E2594D8A000D295AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -314,21 +385,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34CB6A2D25485FB200852C8A /* ViewController.swift in Sources */,
 				34ECC51B252001EA003908DF /* ViewController.swift in Sources */,
 				34ECC517252001EA003908DF /* AppDelegate.swift in Sources */,
-				34CB6A3225485FB200852C8A /* StopWatch.swift in Sources */,
 				344876602594D8A200D295AD /* OclockWidget.intentdefinition in Sources */,
-				34CB6A3325485FB200852C8A /* AppDelegate.swift in Sources */,
 				34ECC519252001EA003908DF /* SceneDelegate.swift in Sources */,
 				3458E5A625261AC500E37400 /* StopWatch.swift in Sources */,
-				34CB6A3625485FB200852C8A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		34051AEE25B9B8F900469B37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34ECC512252001EA003908DF /* MyOclock */;
+			targetProxy = 34051AED25B9B8F900469B37 /* PBXContainerItemProxy */;
+		};
+		34051AFF25B9B90900469B37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34ECC512252001EA003908DF /* MyOclock */;
+			targetProxy = 34051AFE25B9B90900469B37 /* PBXContainerItemProxy */;
+		};
 		344876622594D8A200D295AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 344876512594D8A000D295AD /* OclockWidgetExtension */;
@@ -337,22 +414,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		34CB6A2325485FB200852C8A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				34CB6A2425485FB200852C8A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		34CB6A2525485FB200852C8A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				34CB6A2625485FB200852C8A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		34ECC51C252001EA003908DF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -372,6 +433,92 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		34051AF025B9B8F900469B37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D93ZL5U376;
+				INFOPLIST_FILE = MyOclockUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-1331104th.tama.ac.jp.MyOclockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyOclock;
+			};
+			name = Debug;
+		};
+		34051AF125B9B8F900469B37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D93ZL5U376;
+				INFOPLIST_FILE = MyOclockUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-1331104th.tama.ac.jp.MyOclockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyOclock;
+			};
+			name = Release;
+		};
+		34051B0125B9B90900469B37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D93ZL5U376;
+				INFOPLIST_FILE = MyOclockTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-1331104th.tama.ac.jp.MyOclockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyOclock.app/MyOclock";
+			};
+			name = Debug;
+		};
+		34051B0225B9B90900469B37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D93ZL5U376;
+				INFOPLIST_FILE = MyOclockTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-1331104th.tama.ac.jp.MyOclockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyOclock.app/MyOclock";
+			};
+			name = Release;
+		};
 		344876652594D8A200D295AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -538,7 +685,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.04;
+				CURRENT_PROJECT_VERSION = 1.06;
 				DEVELOPMENT_ASSET_PATHS = MyOclock/thama.mobileprovision;
 				DEVELOPMENT_TEAM = D93ZL5U376;
 				INFOPLIST_FILE = MyOclock/Info.plist;
@@ -546,7 +693,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = "-1331104th.tama.ac.jp.MyOclock";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -560,7 +707,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.04;
+				CURRENT_PROJECT_VERSION = 1.06;
 				DEVELOPMENT_ASSET_PATHS = MyOclock/thama.mobileprovision;
 				DEVELOPMENT_TEAM = D93ZL5U376;
 				INFOPLIST_FILE = MyOclock/Info.plist;
@@ -568,7 +715,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = "-1331104th.tama.ac.jp.MyOclock";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -579,6 +726,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		34051AEF25B9B8F900469B37 /* Build configuration list for PBXNativeTarget "MyOclockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34051AF025B9B8F900469B37 /* Debug */,
+				34051AF125B9B8F900469B37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34051B0025B9B90900469B37 /* Build configuration list for PBXNativeTarget "MyOclockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34051B0125B9B90900469B37 /* Debug */,
+				34051B0225B9B90900469B37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		344876672594D8A200D295AD /* Build configuration list for PBXNativeTarget "OclockWidgetExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

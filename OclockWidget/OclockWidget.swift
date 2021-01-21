@@ -32,7 +32,7 @@ struct Provider: IntentTimelineProvider {
         let currentDate = Date()
         for hourOffset in 0 ..< 5 {
             
-            let entryDate = Calendar.current.date(byAdding: .hour, value: hourOffset, to: currentDate)!
+            let entryDate = Calendar.current.date(byAdding: .minute, value: hourOffset, to: currentDate)!
             let entry = SimpleEntry(date: entryDate, configuration: configuration)
             entries.append(entry)
         }
@@ -71,19 +71,17 @@ struct OclockWidgetEntryView : View {
                 
         Text(entry.date, style: .time)
                     .fontWeight(.heavy)
-            .font(Font.system(size: 31, weight: .semibold, design: .default))
+            .font(Font.system(size: 28, weight: .semibold, design: .default))
             
             .foregroundColor(.init(red: 0, green: 10, blue: 255))
-            
-        
-          
+           
     .fontWeight(.heavy)
-   
+                    
                     Text(entry.date, style: .date)
-                        .font(Font.system(size: 22, weight: .semibold, design: .default))
+                                        .font(Font.system(size: 22, weight: .semibold, design: .default))
                         .foregroundColor(.init(red: 0, green:255, blue: 0))
-                        .shadow(radius: 10)
-                        .cornerRadius(10.0)
+                        .multilineTextAlignment(.center)
+   
             
                  
                     
