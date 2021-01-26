@@ -9,18 +9,18 @@
 import UIKit
 
 class StopWatch: UIViewController {
-
+    
     var countNum = 0
     var timerRunning = false
     var timer = Timer()
     
     @objc func updateDisplay(){
-           countNum += 1
-           let ms = countNum % 100
-           let s = (countNum - ms) / 100 % 60
-           let m = (countNum - s - ms) / 6000 % 3600
-           timeDisplay.text = String(format: "%02d:%02d.%02d", m,s,ms)
-       }
+        countNum += 1
+        let ms = countNum % 100
+        let s = (countNum - ms) / 100 % 60
+        let m = (countNum - s - ms) / 6000 % 3600
+        timeDisplay.text = String(format: "%02d:%02d.%02d", m,s,ms)
+    }
     
     
     @IBOutlet weak var timeDisplay: UILabel!
@@ -39,9 +39,9 @@ class StopWatch: UIViewController {
     @IBAction func StopButton(_ sender: Any) {
         
         if timerRunning == true{
-                    timer.invalidate()
-                    timerRunning = false
-                }
+            timer.invalidate()
+            timerRunning = false
+        }
         
     }
     
@@ -63,13 +63,13 @@ class StopWatch: UIViewController {
         
         
         
-
+        
         
     }
     
     @IBAction func Back(_ sender: Any) {
         //戻る
-    dismiss(animated: true, completion: nil)
+        dismiss(animated: true, completion: nil)
         
     }
     

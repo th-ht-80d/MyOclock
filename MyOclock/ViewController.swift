@@ -12,17 +12,17 @@ import UIKit
 
 
 class ViewController: UIViewController {
-
     
     
-//時間
+    
+    //時間
     @IBOutlet weak var NowTime: UILabel!
     
     let dt = Date()
     let dateFormatter = DateFormatter()
     
     
-   //ストップウォッチのボタン
+    //ストップウォッチのボタン
     @IBAction func StopWatch(_ sender: Any) {
         
         
@@ -30,21 +30,21 @@ class ViewController: UIViewController {
         
     }
     
-   //日付
+    //日付
     @IBOutlet weak var NowDay: UILabel!
     
     
-        
+    
     
     override func viewDidLoad() {
-      
+        
         super.viewDidLoad()
         
         
         //１秒毎に進む
         Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(ViewController.timerUpdate), userInfo: nil, repeats: true)
         
-           
+        
         //日付設定1
         dateFormatter.dateFormat = DateFormatter.dateFormat(fromTemplate: "yMMMd(EEE)", options: 0,locale: Locale(identifier: "ja_JP"))
         
@@ -56,9 +56,9 @@ class ViewController: UIViewController {
         
         let arrWeekday: Array = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
         
-       let date1 = NSDate()
+        let date1 = NSDate()
         let calendar = NSCalendar(calendarIdentifier: NSCalendar.Identifier.gregorian)
-
+        
         
         _ = calendar?.component(.year, from: date1 as Date)
         
@@ -68,12 +68,12 @@ class ViewController: UIViewController {
         
         let weekday = calendar?.component(.weekday, from: date1 as Date)
         
-    
+        
         _ = arrWeekday[weekday! - 1]
         
-
+        
         //時間設定
-       let date2:Date = Date()
+        let date2:Date = Date()
         let format = DateFormatter()
         format.dateFormat = "HH:mm:ss"
         
@@ -94,11 +94,6 @@ class ViewController: UIViewController {
         _ = calendar?.component(.second, from: date1 as Date)
         
         
-        
-        
-        
-        
-        
     }
     //１秒毎に進む内容を記載
     @objc func timerUpdate() {
@@ -116,12 +111,5 @@ class ViewController: UIViewController {
     }
     
     
-    
-    
-    
-    
-    
-    
-
 }
 
